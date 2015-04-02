@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: dsplib
 depends: gnuradio uhd
 source: git://git://svn.berlin.ccc.de/airprobe
 gitbranch: master

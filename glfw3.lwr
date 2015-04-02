@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: baseline
 depends: x11
 satisfy_deb: libglfw3-dev
 source: git://https://github.com/glfw/glfw

@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: dsplib
 depends:
 source: git://git://git.osmocom.org/osmo-tetra.git
 gitbranch: master
@@ -32,7 +32,7 @@ make {
 install {
 	cp -v src/libosmo-tetra-mac.a $prefix/lib
 	cp -v src/libosmo-tetra-phy.a $prefix/lib
-	ldconfig -C $prefix/etc/ld.so.cache $prefix/lib	
+	ldconfig -C $prefix/etc/ld.so.cache $prefix/lib
 	cd src
 	find . -name '*.h' | cpio -pdm $prefix/include/osmo-tetra
 }

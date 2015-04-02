@@ -19,7 +19,7 @@
 
 # FIXME: recommends: doxygen
 
-category: common
+category: dsplib
 depends: libtool automake
 source: git://git://git.osmocom.org/libosmocore.git
 gitbranch: master

@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: dsplib
 depends: libpcap
 source: git://https://github.com/greatscottgadgets/libbtbb.git
 gitbranch: master

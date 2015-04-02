@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: hardware
 depends: git cmake libusb
 satisfy_deb: osmo-sdr && libosmosdr-dev
 source: git://git://git.osmocom.org/osmo-sdr.git
