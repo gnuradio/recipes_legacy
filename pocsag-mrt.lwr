@@ -18,7 +18,7 @@
 #
 
 category: dsplib
-depends: gnuradio gr-extras gr-osmosdr
+depends: gnuradio gr-osmosdr
 source: git://https://github.com/iZsh/pocsag-mrt.git
 gitbranch: master
 inherit: empty
