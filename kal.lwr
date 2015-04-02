@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: dsplib
 depends: gnuradio uhd curl git
 source: git://http://github.com/ttsou/kalibrate-uhd
 gitbranch: master

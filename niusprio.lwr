@@ -17,8 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends: make swig python 
+category: hardware
+depends: make swig python
 source: wget://http://files.ettus.com/binaries/niusrprio/niusrprio-installer.tar.gz
 
 make {

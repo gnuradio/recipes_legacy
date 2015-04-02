@@ -17,8 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends: 
+category: baseline
+depends:
 source: git://https://github.com/szechyjs/mbelib.git
 gitbranch: master
 inherit: cmake

@@ -17,8 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: dsplib
 depends: gnuradio gr-osmosdr fftw libpolarssl
-source: git://git://git.code.sf.net/p/openlte/code 
+source: git://git://git.code.sf.net/p/openlte/code
 gitbranch: master
 inherit: cmake

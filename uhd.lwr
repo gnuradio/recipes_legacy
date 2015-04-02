@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: hardware
 depends: make swig python libusb git cmake cheetah boost gsl numpy cppunit fftw
 satisfy_deb: uhd-host && libuhd-dev
 source: git://https://github.com/EttusResearch/uhd.git

@@ -20,7 +20,7 @@
 var config_opt = " -DINSTALL_UDEV_RULES=OFF"
 depends: git cmake libusb
 satisfy_deb: bladerf
-category: common
+category: hardware
 source: git://https://github.com/Nuand/bladeRF.git
 gitbranch: master
 inherit: cmake
