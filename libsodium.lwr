@@ -17,8 +17,12 @@
 # Boston, MA 02110-1301, USA.
 #
 
-depends: gnuradio libsodium
-category: common
-source: git://https://github.com/stwunsch/gr-nacl.git
+category: baseline
+depends: make git autoconf automake
+source: git://https://github.com/jedisct1/libsodium.git
 gitbranch: master
-inherit: cmake
+inherit: autoconf
+configure {
+    autoreconf -i
+    ./configure --prefix=$prefix $config_opt
+    }
