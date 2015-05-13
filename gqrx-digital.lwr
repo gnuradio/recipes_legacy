@@ -32,10 +32,11 @@ make {
 }
 
 install {
-    cp gqrx $prefix/bin/
+    mv gqrx gqrx-digital
+    cp gqrx-digital $prefix/bin/
 }
 
 uninstall {
-    rm $prefix/bin/gqrx
+    rm $prefix/bin/gqrx-digital
 }
 
