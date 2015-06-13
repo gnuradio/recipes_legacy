@@ -22,6 +22,7 @@ depends: make swig python libusb git cmake cheetah boost gsl numpy cppunit fftw
 satisfy_deb: uhd-host && libuhd-dev
 source: git://https://github.com/EttusResearch/uhd.git
 gitbranch: master
+#gitbranch: rfnoc-devel
 inherit: cmake
 configuredir: host/build
 makedir: host/build
