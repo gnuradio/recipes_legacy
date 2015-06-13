@@ -17,9 +17,8 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: hardware
 depends: gnuradio uhd
 source: git://https://github.com/EttusResearch/gr-ettus.git
 gitbranch: master
 inherit: cmake
-
