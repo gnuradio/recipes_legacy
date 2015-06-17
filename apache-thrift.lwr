@@ -17,13 +17,13 @@
 # Boston, MA 02110-1301, USA.
 #
 
-depends: automake gcc boost bison flex libevent python ssl
+depends: libtool automake gcc boost bison flex libevent python ssl
 category: baseline
 source: git://https://git-wip-us.apache.org/repos/asf/thrift.git
 gitrev: 0.9.2
-inherit: autoconf
+inherit: bootstrapautoconf
 configure {
-    ./configure --prefix=$prefix $config_opt \
+    ./bootstrap.sh && ./configure --prefix=$prefix $config_opt \
     --enable-tests --disable-tutorial --with-cpp --with-python \
     --with-c_glib --with-java --without-csharp --without-php \
     --with-libevent --without-zlib \
