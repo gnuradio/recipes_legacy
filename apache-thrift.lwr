@@ -19,7 +19,8 @@
 
 depends: automake gcc boost bison flex libevent python ssl
 category: baseline
-source: wget://http://apache.mesi.com.ar/thrift/0.9.2/thrift-0.9.2.tar.gz
+source: git://https://git-wip-us.apache.org/repos/asf/thrift.git
+gitrev: 0.9.2
 inherit: autoconf
 configure {
     ./configure --prefix=$prefix $config_opt \
