@@ -17,5 +17,10 @@
 # Boston, MA 02110-1301, USA.
 #
 
+depends: libtool automake gcc wget
 category: baseline
 satisfy_deb: liblog4cpp5 && liblog4cpp5-dev
+satisfy_rpm: log4cpp-devel && log4cpp
+source: wget://http://prdownloads.sourceforge.net/log4cpp/log4cpp-1.1.1.tar.gz
+var config_opt = "--with-pthreads"
+inherit: autoconf
