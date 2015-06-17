@@ -27,5 +27,5 @@ configure {
     --enable-tests --disable-tutorial --with-cpp --with-python \
     --with-c_glib --with-java --without-csharp --without-php \
     --with-libevent --without-zlib \
-    CC=$cc CXX=$cxx
+    CC=$cc CXX=$cxx PY_PREFIX=$prefix
 }
