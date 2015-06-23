@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: application
 depends: gnuradio gr-osmosdr pulseaudio qt4
 satisfy_deb: gqrx-sdr
 source: git://https://github.com/csete/gqrx.git

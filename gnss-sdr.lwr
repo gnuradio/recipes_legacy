@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: application
 depends: gnuradio armadillo
 source: git://http://github.com/gnss-sdr/gnss-sdr.git
 gitbranch: next

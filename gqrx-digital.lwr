@@ -17,7 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
+category: application
 depends: gnuradio gr-osmosdr pulseaudio qt4 libosmocore osmo-tetra libshout gr-dsd
 source: git://https://github.com/kantooon/gqrx_fork.git
 gitbranch: digital
