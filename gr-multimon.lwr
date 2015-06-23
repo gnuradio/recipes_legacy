@@ -18,7 +18,7 @@
 #
 
 category: common
-depends: gnuradio gr-compat
-source: git://https://github.com/freqmod/gr-multimon.git
+depends: gnuradio
+source: git://https://github.com/ckuethe/gr-multimon.git
 gitbranch: master
 inherit: cmake
