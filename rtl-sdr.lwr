@@ -20,7 +20,7 @@
 category: hardware
 depends: libusb
 satisfy_deb: rtl-sdr && librtlsdr-dev
-source: git://git://git.osmocom.org/rtl-sdr
+source: git://http://git.osmocom.org/rtl-sdr
 gitbranch: master
 var config_opt = " -DDETACH_KERNEL_DRIVER=ON "
 inherit: cmake

@@ -19,7 +19,7 @@
 
 category: dsplib
 depends:
-source: git://git://git.osmocom.org/osmo-tetra.git
+source: git://http://git.osmocom.org/osmo-tetra.git
 gitbranch: master
 #inherit: autoconf
 

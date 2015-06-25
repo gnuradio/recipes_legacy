@@ -19,7 +19,7 @@
 
 category: common
 depends: gnuradio glfw3
-source: git://git://git.osmocom.org/gr-fosphor
+source: git://http://git.osmocom.org/gr-fosphor
 gitbranch: master
 # NOTE: If cmake does not find your libOpenCL.so you may
 #       need to uncomment and update the following line!
