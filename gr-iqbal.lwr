@@ -20,6 +20,6 @@
 category: common
 depends: gnuradio libosmo-dsp
 satisfy_deb: gr-iqbal
-source: git://git://git.osmocom.org/gr-iqbal
+source: git://http://git.osmocom.org/gr-iqbal
 gitbranch: master
 inherit: cmake

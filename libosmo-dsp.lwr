@@ -21,7 +21,7 @@
 
 category: dsplib
 depends: fftw autoconf libtool automake
-source: git://git://git.osmocom.org/libosmo-dsp
+source: git://http://git.osmocom.org/libosmo-dsp
 gitbranch: master
 inherit: autoconf
 
