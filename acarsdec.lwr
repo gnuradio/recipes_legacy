@@ -1,0 +1,39 @@
+#
+# This file is part of PyBOMBS
+#
+# PyBOMBS is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 3, or (at your option)
+# any later version.
+#
+# PyBOMBS is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with PyBOMBS; see the file COPYING.  If not, write to
+# the Free Software Foundation, Inc., 51 Franklin Street,
+# Boston, MA 02110-1301, USA.
+#
+
+category: application
+depends: rtl-sdr
+source: wget://http://iweb.dl.sourceforge.net/project/acarsdec/acarsdec/3.1/acarsdec-3.1.tar.gz
+gitbranch: master
+
+make {
+	env > /tmp/envdfg
+	# Note: on non SSE2 processor, it may be necessary to add "-UUSE_SSE2" to CFLAGS
+	# This mess is necessary because the makefile doesn't properly
+	# detect rtlsdr (via pkg-config, for example)
+	make CFLAGS="$(pkg-config --cflags librtlsdr ) -DWITH_RTL -Ofast -ftree-vectorize -funroll-loops -pthread" LDLIBS="$(pkg-config --libs librtlsdr )  -lm -lrtlsdr -pthread"
+}
+	
+install {
+	cp -v acarsdec $prefix/bin
+}
+
+uninstall {
+	rm -f $prefix/bin/acarsdec
+}
