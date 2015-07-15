@@ -17,8 +17,9 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: application
-depends: gnuradio gr-ra_blocks
-source: git://https://github.com/patchvonbraun/simple_ra.git
+category: common
+depends: gnuradio
+source: git://https://github.com/patchvonbraun/gr-ra_blocks.git
 gitbranch: master
-inherit: empty
+inherit: cmake
+
