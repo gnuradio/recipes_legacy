@@ -19,8 +19,6 @@
 
 category: common
 depends: gnuradio
-#source: git://https://github.com/antoinet/gr-acars2.git
-#gitbranch: master
-source: git://https://github.com/ckuethe/gr-acars2.git
-gitbranch: runtime_debug
+source: git://https://github.com/antoinet/gr-acars2.git
+gitbranch: master
 inherit: cmake
