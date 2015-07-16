@@ -29,5 +29,5 @@ installdir: build
 install {
    cd build
    make install
-   ldconfig
+   ldconfig || true
 }
