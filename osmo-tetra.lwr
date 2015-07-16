@@ -32,7 +32,7 @@ make {
 install {
 	cp -v src/libosmo-tetra-mac.a $prefix/lib
 	cp -v src/libosmo-tetra-phy.a $prefix/lib
-	ldconfig -C $prefix/etc/ld.so.cache $prefix/lib
+	ldconfig -C $prefix/etc/ld.so.cache $prefix/lib || true
 	cd src
 	find . -name '*.h' | cpio -pdm $prefix/include/osmo-tetra
 }
