@@ -29,5 +29,5 @@ configure {
     --without-haskell --without-java --without-lua --without-nodejs \
     --without-perl --without-php --without-ruby --without-zlib \
     --disable-tests --disable-tutorial $config_opt \
-    CC=$cc CXX=$cxx PY_PREFIX=$prefix
+    CC=$cc CXX=$cxx PY_PREFIX=$prefix CXXFLAGS="-DNDEBUG"
 }
