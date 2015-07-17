@@ -18,7 +18,7 @@
 #
 
 category: common
-depends: gnuradio gr-osmosdr scipy liblog4cpp
+depends: gnuradio gr-osmosdr scipy liblog4cpp libosmocore
 source: git://https://github.com/ptrkrysik/gr-gsm.git
 gitbranch: master
 inherit: cmake
