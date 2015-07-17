@@ -21,3 +21,4 @@ depends: gnuradio
 category: common
 source: git://https://github.com/osh/gr-benchmark.git
 gitbranch: master
+description: performance measurement tool for GNU Radio

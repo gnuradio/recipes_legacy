@@ -22,3 +22,4 @@ depends: gnuradio libav
 source: git://https://github.com/osh/gr-mediatools.git
 gitbranch: master
 inherit: cmake
+description: ffmpeg and gnu radio integration

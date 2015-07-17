@@ -22,6 +22,8 @@ depends: gnuradio
 source: git://https://github.com/osh/grcompat.git
 gitbranch: master
 inherit: cmake
+description: Compatibility layer for various gnuradio APIs and libraries
+
 install {
     make install
     cd $prefix/include/grcompat/ && ln -sf ../pmt && ln -sf ../gnuradio

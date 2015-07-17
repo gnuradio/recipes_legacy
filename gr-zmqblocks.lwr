@@ -22,4 +22,4 @@ depends: gnuradio zeromq
 source: git://https://github.com/iohannez/gr-zmqblocks.git
 gitbranch: master
 inherit: cmake
-
+description: connect to flowgraphs over a network to perform remote procedure calls

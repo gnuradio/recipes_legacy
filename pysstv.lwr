@@ -2,4 +2,4 @@ depends: python setuptools wget libjpeg
 category: dsplib
 source: wget://https://pypi.python.org/packages/source/P/PySSTV/PySSTV-0.1.9.tar.gz
 inherit: distutils
-
+description: SSTV generator in pure Python

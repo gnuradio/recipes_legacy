@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/dl1ksv/gr-ax25.git
 gitbranch: master
 inherit: cmake
+description: Some hamradio ax.25 routines for gnuradio

@@ -22,3 +22,4 @@ depends: gnuradio gr-compat libbtbb
 source: git://https://github.com/greatscottgadgets/gr-bluetooth.git
 gitbranch: master
 inherit: cmake
+description: Bluetooth receiver implementation for GNU Radio

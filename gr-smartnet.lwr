@@ -22,3 +22,4 @@ depends: gnuradio gr-compat
 source: git://https://github.com/bistromath/gr-smartnet.git
 gitbranch: master
 inherit: bootstrapautoconf
+description: Motorola Smartnet II trunking logging scanner for Gnuradio

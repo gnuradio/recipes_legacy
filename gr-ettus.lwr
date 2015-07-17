@@ -22,3 +22,4 @@ depends: gnuradio uhd
 source: git://https://github.com/EttusResearch/gr-ettus.git
 gitbranch: master
 inherit: cmake
+description: Out-of-tree Module for Experimental Ettus Research Features

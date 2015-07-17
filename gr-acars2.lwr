@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/antoinet/gr-acars2.git
 gitbranch: master
 inherit: cmake
+description: GNU Radio processing block for ACARS transmissions

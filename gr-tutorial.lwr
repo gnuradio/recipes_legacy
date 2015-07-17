@@ -22,4 +22,4 @@ depends: gnuradio liblog4cpp
 source: git://https://github.com/gnuradio/gr-tutorial.git
 gitbranch: master
 inherit: cmake
-
+description: tutorial OOT module for GNU Radio

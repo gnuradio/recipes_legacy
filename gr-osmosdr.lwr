@@ -23,3 +23,4 @@ satisfy_deb: gr-osmosdr
 source: git://git://git.osmocom.org/gr-osmosdr
 gitbranch: master
 inherit: cmake
+description: interface api independent of the underlying radio hardware

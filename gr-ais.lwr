@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/bistromath/gr-ais.git
 gitbranch: master
 inherit: cmake
+description: Automatic Information System decoder for shipborne position reporting

@@ -22,4 +22,4 @@ depends: gnuradio
 source: git://https://github.com/patchvonbraun/gr-ra_blocks.git
 gitbranch: master
 inherit: cmake
-
+description: Helper blocks for simple_ra

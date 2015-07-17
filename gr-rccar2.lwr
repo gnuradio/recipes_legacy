@@ -22,6 +22,8 @@ depends: gnuradio
 source: git://https://github.com/peterfillmore/GR_RCCar.git
 gitbranch: master
 inherit: cmake
+description: Gnuradio implementation for cheap remote control cars
+
 configuredir: gr-rccar2/build
 makedir: gr-rccar2/build
 installdir: gr-rccar2/build

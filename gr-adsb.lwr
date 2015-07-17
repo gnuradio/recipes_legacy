@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/wnagele/gr-adsb.git
 gitbranch: master
 inherit: cmake
+description: GNU Radio ADSB decoder and framer

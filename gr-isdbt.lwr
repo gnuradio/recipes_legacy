@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/git-artes/gr-isdbt
 gitbranch: master
 inherit: cmake
+description: DTV ISDB-T in GNURadio

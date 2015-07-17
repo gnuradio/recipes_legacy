@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/gr-vt/gr-mapper.git
 gitbranch: master
 inherit: cmake
+description: Symbol to Bit Mapping and Demapping Blocks for GNU Radio

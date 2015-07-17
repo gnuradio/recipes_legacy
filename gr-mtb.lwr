@@ -25,3 +25,4 @@ inherit: cmake
 configuredir: gr-mtb/build
 makedir: gr-mtb/build
 installdir: gr-mtb/build
+description: GNU Radio measurement toolbox

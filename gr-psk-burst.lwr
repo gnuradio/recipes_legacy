@@ -22,3 +22,4 @@ depends: gnuradio gr-burst gr-mapper gr-eventstream gr-pyqt
 source: git://https://github.com/osh/gr-psk-burst.git
 gitbranch: master
 inherit: empty
+description: GNU Radio message based burst FSK Transmitter and Receiver
