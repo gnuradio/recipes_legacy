@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/osh/gr-theano.git
 gitbranch: master
 inherit: cmake
+description: Rapid GPU Accelerated Blocks for GNU Radio

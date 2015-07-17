@@ -25,4 +25,4 @@ inherit: cmake
 configuredir: gr-drm/build
 makedir: gr-drm/build
 installdir: gr-drm/build
-
+description: DRM transmitter using GNU Radio

@@ -22,4 +22,4 @@ depends: gnuradio
 source: git://https://github.com/bistromath/gr-rtty.git
 gitbranch: master
 inherit: cmake
-
+description: RTTY decoder for Gnuradio

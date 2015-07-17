@@ -22,3 +22,4 @@ depends: gnuradio uhd curl cmake armadillo gr-compat
 source: git://https://github.com/balint256/gr-baz.git
 gitbranch: master
 inherit: cmake
+description: Collection of new blocks for GNU Radio http://wiki.spench.net/wiki/gr-baz

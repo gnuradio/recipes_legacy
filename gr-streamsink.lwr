@@ -22,3 +22,4 @@ depends: gnuradio libmp3lame
 source: git://https://github.com/martinleolehner/gr-streamsink.git
 gitbranch: master
 inherit: cmake
+description: GNURadio sink to stream audio to SHOUTcast/Icecast

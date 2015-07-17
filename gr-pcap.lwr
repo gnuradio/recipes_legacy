@@ -22,3 +22,4 @@ depends: gnuradio python-scapy
 source: git://https://github.com/osh/gr-pcap.git
 gitbranch: master
 inherit: cmake
+description: PCAP recording and playback

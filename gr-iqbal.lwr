@@ -23,3 +23,4 @@ satisfy_deb: gr-iqbal
 source: git://git://git.osmocom.org/gr-iqbal
 gitbranch: master
 inherit: cmake
+description: gnuradio I/Q balancing

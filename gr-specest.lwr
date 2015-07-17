@@ -22,4 +22,4 @@ depends: gnuradio gfortran lapack blas
 source: git://https://github.com/kit-cel/gr-specest.git
 gitbranch: master
 inherit: cmake
-
+description: spectral estimation routines for GNU Radio

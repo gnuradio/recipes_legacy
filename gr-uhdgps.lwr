@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/osh/gr-uhdgps.git
 gitbranch: master
 inherit: cmake
+description: Blocks to assist in GPS Data logging with UHD and a GPSDO

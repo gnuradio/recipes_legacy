@@ -23,8 +23,9 @@ satisfy_deb: gr-air-modes
 source: git://https://github.com/bistromath/gr-air-modes.git
 gitbranch: master
 inherit: cmake
+description: Gnuradio Mode-S/ADS-B decoder
 
-# work around lacking paralell cmake dep structure
+# work around lacking parallel cmake dep structure
 make {
     make -j1
     }

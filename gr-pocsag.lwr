@@ -22,3 +22,4 @@ depends: gnuradio gr-compat
 source: svn://https://www.cgran.org/svn/projects/gr-pocsag/trunk
 gitbranch: master
 inherit: cmake
+description: multichannel POCSAG receiver for gnuradio

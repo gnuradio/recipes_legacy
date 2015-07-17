@@ -22,4 +22,4 @@ depends: gnuradio
 source: git://https://github.com/drmpeg/gr-dvbs2.git
 gitbranch: master
 inherit: cmake
-
+description: DVB-S2 and DVB-S2X transmitter for GNU Radio

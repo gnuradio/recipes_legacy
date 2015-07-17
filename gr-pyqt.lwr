@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/osh/gr-pyqt.git
 gitbranch: master
 inherit: cmake
+description: pyqt based plotters intended for plotting bursted events in gnu radio

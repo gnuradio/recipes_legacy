@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/gr-vt/gr-message_tools.git
 gitbranch: master
 inherit: cmake
+description: Simple message debugging tools

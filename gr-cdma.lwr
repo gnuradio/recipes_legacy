@@ -22,4 +22,4 @@ depends: gnuradio
 source: git://https://github.com/anastas/gr-cdma.git
 gitbranch: master
 inherit: cmake
-
+description: CDMA physical layer for Gnuradio

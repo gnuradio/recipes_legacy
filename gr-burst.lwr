@@ -22,3 +22,4 @@ depends: gnuradio gr-mapper gr-eventstream
 source: git://https://github.com/gr-vt/gr-burst.git
 gitbranch: master
 inherit: cmake
+description: Burst PSK Modem Building Blocks for GNU Radio

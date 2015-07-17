@@ -22,4 +22,4 @@ depends: gnuradio
 source: git://https://github.com/argilo/gr-elster.git
 gitbranch: master
 inherit: cmake
-
+description: Decode packets transmitted by Elster R2S smart meters

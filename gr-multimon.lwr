@@ -22,3 +22,4 @@ depends: gnuradio
 source: git://https://github.com/ckuethe/gr-multimon.git
 gitbranch: master
 inherit: cmake
+description: multimon gnuradio wrapper

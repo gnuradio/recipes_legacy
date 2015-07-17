@@ -22,3 +22,4 @@ depends: gnuradio gr-ra_blocks
 source: git://https://github.com/patchvonbraun/simple_ra.git
 gitbranch: master
 inherit: empty
+description: integrated radio astronomy receiver for GNU Radio

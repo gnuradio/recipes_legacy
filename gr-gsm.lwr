@@ -22,6 +22,7 @@ depends: gnuradio gr-osmosdr scipy liblog4cpp
 source: git://https://github.com/ptrkrysik/gr-gsm.git
 gitbranch: master
 inherit: cmake
+description: Gnuradio blocks and tools for receiving GSM transmissions
 configuredir: build
 makedir: build
 installdir: build

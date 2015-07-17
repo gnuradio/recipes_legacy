@@ -22,3 +22,4 @@ depends: rtl-sdr
 source: git://https://github.com/merbanan/rtl_433.git
 gitbranch: master
 inherit: cmake
+description: 433MHz generic data receiver using RTL2832 DVB dongle

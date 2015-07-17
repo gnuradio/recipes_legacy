@@ -22,3 +22,4 @@ category: common
 source: git://https://github.com/kit-cel/gr-radar.git
 gitbranch: master
 inherit: cmake
+description: GNU Radio Radar Toolbox

@@ -20,10 +20,9 @@
 category: application
 depends: rtl-sdr
 source: wget://http://iweb.dl.sourceforge.net/project/acarsdec/acarsdec/3.1/acarsdec-3.1.tar.gz
-gitbranch: master
+description: open source ACARS decoder with rtl_sdr frontend
 
 make {
-	env > /tmp/envdfg
 	# Note: on non SSE2 processor, it may be necessary to add "-UUSE_SSE2" to CFLAGS
 	# This mess is necessary because the makefile doesn't properly
 	# detect rtlsdr (via pkg-config, for example)

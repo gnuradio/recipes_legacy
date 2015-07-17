@@ -22,3 +22,4 @@ category: common
 source: git://https://github.com/osh/gr-eventstream.git
 gitbranch: master
 inherit: cmake
+description: translation between streams of data and scheduled-finite length events

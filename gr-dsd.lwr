@@ -22,6 +22,7 @@ depends: mbelib gnuradio libsndfile
 source: git://https://github.com/argilo/gr-dsd.git
 gitbranch: master
 inherit: cmake
+description: GNU Radio block for Digital Speech Decoder
 
 install {
 	make install

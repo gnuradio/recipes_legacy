@@ -22,3 +22,4 @@ category: common
 source: git://https://github.com/stwunsch/gr-nacl.git
 gitbranch: master
 inherit: cmake
+description: GNU Radio module for data encryption using NaCl
