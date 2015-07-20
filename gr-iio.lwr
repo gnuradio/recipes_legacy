@@ -18,7 +18,7 @@
 #
 
 category: common
-depends: gnuradio libiio
+depends: gnuradio libiio libad9361
 satisfy_deb: gr-iio
 source: git://https://github.com/analogdevicesinc/gnuradio.git
 gitbranch: gr-iio
