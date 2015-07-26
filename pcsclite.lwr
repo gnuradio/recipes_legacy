@@ -17,12 +17,10 @@
 # Boston, MA 02110-1301, USA.
 #
 
-# FIXME: recommends: doxygen
-
-category: dsplib
-depends: libtool automake pcsclite
-source: git://git://git.osmocom.org/libosmocore.git
-gitbranch: master
+category: baseline
+satisfy_deb: libpcsclite-dev >= 1.8.11
+satisfy_rpm: libpcsclite-devel >= 1.8.11
+source: git://git://anonscm.debian.org/pcsclite/PCSC.git
 inherit: autoconf
 
 configure {
