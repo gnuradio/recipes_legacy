@@ -19,7 +19,7 @@
 
 category: application
 depends: rtl-sdr
-source: wget://http://iweb.dl.sourceforge.net/project/acarsdec/acarsdec/3.1/acarsdec-3.1.tar.gz
+source: git://https://github.com/ckuethe/acarsdec.git
 description: open source ACARS decoder with rtl_sdr frontend
 
 make {
