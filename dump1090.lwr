@@ -23,13 +23,4 @@ source: git://https://github.com/mutability/dump1090.git
 gitbranch: master
 inherit: autoconf
 description: simple Mode S decoder for RTLSDR devices
-var config_opt = "-UHTMLPATH -DHTMLPATH=$prefix/share/dump1090"
-
-install {
-	cp -v dump1090 view1090 $prefix/bin
-	cp -r public_html $prefix/share/dump1090
-}
-
-uninstall {
-	rm -rf $prefix/share/dump1090 $prefix/bin/dump1090 $prefix/bin/view1090 
-}
+var config_opt = "PREFIX=$prefix"
