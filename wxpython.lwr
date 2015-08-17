@@ -22,7 +22,7 @@ depends: gtk2 python swig wget
 #source: wget://http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12.tar.bz2
 #source: wget://http://prdownloads.sourceforge.net/wxpython/wxPython-src-2.8.10.1.tar.bz2
 source: wget://http://prdownloads.sourceforge.net/wxpython/wxPython-src-2.8.11.0.tar.bz2
-satisfy_deb: python-wxgtk2.8 
+satisfy_deb: python-wxgtk2.8 || python-wxgtk3.0
 satisfy_rpm: wxPython
 var config_opt = " --disable-unicode "
 inherit: autoconf
