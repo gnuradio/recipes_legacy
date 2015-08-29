@@ -18,6 +18,7 @@
 #
 
 category: baseline
+depends: flex libudev
 satisfy_deb: libpcsclite-dev >= 1.8.11
 satisfy_rpm: libpcsclite-devel >= 1.8.11
 source: git://git://anonscm.debian.org/pcsclite/PCSC.git
