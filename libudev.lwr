@@ -18,14 +18,6 @@
 #
 
 category: baseline
-depends: flex libudev
-satisfy_deb: libpcsclite-dev >= 1.8.11
-satisfy_rpm: libpcsclite-devel >= 1.8.11
-source: git://git://anonscm.debian.org/pcsclite/PCSC.git
-inherit: autoconf
-
-configure {
-    autoreconf -i
-    ./configure --prefix=$prefix $config_opt
-}
-
+depends:
+satisfy_deb: libudev-dev
+satisfy_rpm: libudev-devel
