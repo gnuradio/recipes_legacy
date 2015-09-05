@@ -17,9 +17,7 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: common
-depends: gnuradio python-matplotlib python-tk
-source: git://https://github.com/osh/gr-pyqt.git
-gitbranch: master
-inherit: cmake
-description: pyqt based plotters intended for plotting bursted events in gnu radio
+depends: python
+category: baseline
+satisfy_deb: python-tk
+description: A module for writing portable GUI applications with Python using Tk.
