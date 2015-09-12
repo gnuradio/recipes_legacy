@@ -20,5 +20,5 @@
 category: baseline
 satisfy_deb: autoconf >= 2.69
 satisfy_rpm: autoconf >= 2.69
-source: wget://http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.xz
+source: wget://http://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
 inherit: autoconf
