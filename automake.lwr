@@ -18,5 +18,7 @@
 #
 
 category: baseline
-satisfy_deb: automake
-satisfy_rpm: automake
+satisfy_deb: automake >= 1.13
+satisfy_rpm: automake >= 1.13
+source: wget://http://ftp.gnu.org/gnu/automake/automake-1.13.4.tar.xz
+inherit: autoconf
