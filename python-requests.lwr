@@ -17,13 +17,6 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: hardware
-depends: make swig python python-requests libusb git cmake mako boost gsl numpy cppunit fftw
-satisfy_deb: uhd-host && libuhd-dev
-source: git://https://github.com/EttusResearch/uhd.git
-gitbranch: master
-#gitbranch: rfnoc-devel
-inherit: cmake
-configuredir: host/build
-makedir: host/build
-installdir: host/build
+category: baseline
+satisfy_deb: python-requests
+satisfy_rpm: python-requests
