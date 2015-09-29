@@ -19,7 +19,7 @@
 
 category: common
 depends: gnuradio gr-osmosdr libitpp 
-source: git://https://github.com/ckuethe/gr-mixalot.git
+source: git://https://github.com/unsynchronized/gr-mixalot.git
 gitbranch: master
 inherit: cmake
 description: Gnuradio pager encoder
