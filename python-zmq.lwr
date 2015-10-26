@@ -19,3 +19,4 @@
 
 category: baseline
 satisfy_deb: python-zmq
+satisfy_rpm: python-zmq
