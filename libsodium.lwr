@@ -20,6 +20,7 @@
 category: baseline
 depends: make git autoconf automake
 satisfy_deb: libsodium-dev
+satisfy_rpm: libsodium-devel
 source: git://https://github.com/jedisct1/libsodium.git
 gitbranch: master
 inherit: autoconf
