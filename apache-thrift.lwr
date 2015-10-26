@@ -20,7 +20,7 @@
 depends: libtool automake gcc boost bison flex libevent python ssl
 category: baseline
 source: git://https://github.com/apache/thrift.git
-gitrev: e2e5e22c1
+gitrev: 53dd398
 inherit: bootstrapautoconf
 configure {
     ./bootstrap.sh && ./configure --prefix=$prefix \
