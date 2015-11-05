@@ -18,9 +18,8 @@
 #
 
 category: common
-depends: gnuradio uhd gr-foo
-#source: git://git://wiesel.ece.utah.edu/gr-ieee802-15-4.git
-source: git://https://github.com/bastibl/gr-ieee802-15-4.git
+depends: gnuradio
+source: git://https://github.com/bastibl/gr-foo
 gitbranch: master
 inherit: cmake
-description: IEEE 802.15.4 ZigBee Transceiver
+description: Some additional blocks like packetpad that are required by, e.g., gr-ieee80211
