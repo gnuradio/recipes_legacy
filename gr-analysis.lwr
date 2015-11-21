@@ -16,7 +16,7 @@
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
 #
-
+description: CLI file manipulation/conversion tools and high sample rate (~30MSPS) recording programs 
 category: common
 depends: gnuradio uhd
 source: git://https://github.com/garverp/gr-analysis
