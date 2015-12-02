@@ -21,6 +21,6 @@ depends: libxml cmake git
 category: hardware
 satisfy_deb: libiio0 >= 0.5 && libiio-dev >= 0.5
 source: git://https://github.com/analogdevicesinc/libiio
-gitrev: tags/v0.5
+gitrev: 2015_R1
 var config_opt = " -DWITH_IIOD:BOOL=OFF "
 inherit: cmake
