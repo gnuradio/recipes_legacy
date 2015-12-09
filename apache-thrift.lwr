@@ -28,6 +28,7 @@ configure {
     --without-csharp --without-d --without-erlang --without-go \
     --without-haskell --without-java --without-lua --without-nodejs \
     --without-perl --without-php --without-ruby --without-zlib \
+    --without-qt4 --without-qt5 \
     --disable-tests --disable-tutorial $config_opt \
     CC=$cc CXX=$cxx PY_PREFIX=$prefix CXXFLAGS="-DNDEBUG"
 }
