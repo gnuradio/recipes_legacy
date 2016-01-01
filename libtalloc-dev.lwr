@@ -17,16 +17,9 @@
 # Boston, MA 02110-1301, USA.
 #
 
-# FIXME: recommends: doxygen
-
-category: dsplib
-depends: libtool automake pcsclite libtalloc-dev
-source: git://git://git.osmocom.org/libosmocore.git
-gitbranch: master
+category: baseline
+depends: git make libtool
+satisfy_deb: libtalloc-dev >= 2.0.1
+satisfy_rpm: libtalloc-devel >= 2.0.1
+source: git://git://anonscm.debian.org/pkg-samba/talloc.git 
 inherit: autoconf
-
-configure {
-    autoreconf -i
-    ./configure --prefix=$prefix $config_opt
-}
-
