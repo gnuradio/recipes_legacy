@@ -19,3 +19,7 @@
 
 category: baseline
 satisfy_deb: libitpp-dev
+# https://copr.fedorainfracloud.org/coprs/mdriu/itpp/
+satisfy_rpm: itpp-devel
+source: wget://http://downloads.sourceforge.net/project/itpp/itpp/4.3.1/itpp-4.3.1.tar.bz2
+inherit: autoconf
