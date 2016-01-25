@@ -17,17 +17,9 @@
 # Boston, MA 02110-1301, USA.
 #
 
-category: application
-depends: gnuradio gr-osmosdr pulseaudio qt4 qt5
-satisfy_deb: gqrx-sdr
-source: git://https://github.com/csete/gqrx.git
-gitbranch: master
-inherit: cmake
+# big hammer to pull in all the parts of QT5 that apps might need
 
-install {
-    cp src/gqrx $prefix/bin/
-}
-
-uninstall {
-    rm $prefix/bin/gqrx
-}
+category: baseline 
+depends:
+satisfy_deb: libqt5svg5-dev && qt5-default
+satisfy_rpm: qt5-qtbase-devel && qt5-qtsvg-devel
