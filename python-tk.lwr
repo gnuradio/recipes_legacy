@@ -20,4 +20,5 @@
 depends: python
 category: baseline
 satisfy_deb: python-tk
+satisfy_rpm: python-tkinter
 description: A module for writing portable GUI applications with Python using Tk.
