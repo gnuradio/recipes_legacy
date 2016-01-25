@@ -20,4 +20,5 @@
 depends: python numpy
 category: baseline
 satisfy_deb: python-matplotlib
+satisfy_rpm: python-matplotlib
 description: Python based plotting system in a style similar to Matlab.
