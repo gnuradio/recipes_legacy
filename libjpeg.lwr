@@ -19,5 +19,5 @@
 
 category: baseline
 depends:
-satisfy_deb: libjpeg-turbo8-dev || libjpeg62-dev
+satisfy_deb: libjpeg-turbo8-dev || libjpeg62-turbo-dev || libjpeg62-dev
 satisfy_rpm: libjpeg-devel || libjpeg-turbo-devel
