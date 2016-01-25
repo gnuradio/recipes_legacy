@@ -19,4 +19,5 @@
 
 category: baseline
 satisfy_deb: libfaac-dev && libfaac0
-satisfy_rpm: libfaac-devel
+# from RPMFusion - rpmfusion.org/Configuration/
+satisfy_rpm: faac-devel
