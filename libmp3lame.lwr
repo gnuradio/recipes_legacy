@@ -19,3 +19,4 @@
 
 category: baseline
 satisfy_deb: libmp3lame-dev
+satisfy_rpm: lame-devel
